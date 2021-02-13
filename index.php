@@ -28,9 +28,8 @@
            
         </header>
         <section class="content">
-            <div class="conteiner-logo">
-                <img src="https://cdn.shortpixel.ai/spai/w_325+h_86+q_lossless+ret_img+to_webp/https://stampymail.com/wp-content/uploads/2020/09/Logo-Stampymail-web.jpg" alt="StampyMail" id="logo">
-            </div>
+            <?php require 'partials/header.php'?>
+            
             <p> Si dispones de tiempo en estos momentos, nos gustaría hacerte una
                 pequeña prueba en PHP para evaluar tu nivel de conocimiento del
                 lenguaje, así como de bases de datos, patrones de diseño, etc.

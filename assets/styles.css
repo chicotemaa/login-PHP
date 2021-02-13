@@ -73,5 +73,30 @@ ul{
 a{
     text-decoration: none;
     color: white;
-
+    cursor: pointer;
+}
+input[type="email"],input[type="password"],.btn{
+outline: none;
+padding: 1%;
+display: inline-block;
+width: 15%;
+border-radius: 3px;
+border:2px solid #1c1c1c;
+margin:1% auto
+}
+.btn{
+    font-weight:200;
+    color: white;
+    border:1px solid #120870;
+    background-color: #0855c9;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #3dcbb6;
+}
+span a{
+    color:#333
+}
+.registro{
+    display: grid;
 }
