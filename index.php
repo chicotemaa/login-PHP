@@ -20,7 +20,7 @@
                     <div id="menu-login">
 
                         <ul class="nav">
-                             <li class="login">¿Tienes un Usuario? <a href="login.php"><a href="signup.php">Registrarme</a></a> </li>
+                             <li class="login">¿Tienes un Usuario? <a href="login.php">loguerme</a></a> </li>
                         </ul>
                     </div>
                 </div>
