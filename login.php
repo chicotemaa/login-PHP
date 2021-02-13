@@ -1,5 +1,25 @@
-<?php require 'conection.php';
+<?php
 
+  session_start();
+
+
+  require 'conection.php';
+
+  if (!empty($_POST['email']) && !empty($_POST['password'])) {
+    $records = $link->prepare('SELECT id, nombre, email, password FROM users WHERE email = :email');
+    $records->bindParam(':email', $_POST['email']);
+    $records->execute();
+    $results = $records->fetch(PDO::FETCH_ASSOC);
+
+    $message = '';
+
+    if (count($results) > 0 && password_verify($_POST['password'], $results['password'])) {
+      $_SESSION['user_id'] = $results['id'];
+      header("Location: /login/admin.php");
+    } else {
+      $message = 'La contraseña es incorrecta';
+    }
+  }
 
 ?>
 <!DOCTYPE html>
@@ -12,7 +32,9 @@
 </head>
 <body>
     <?php require 'partials/header.php'?>
-
+    <?php if(!empty($message)): ?>
+      <p> <?= $message ?></p>
+    <?php endif; ?>
     <h1>Login</h1>
     <span>o <a href="signup.php">Registrarte</a></span>
     <form action="login.php" method="post">

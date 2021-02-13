@@ -60,7 +60,6 @@ ul{
     list-style: none;
 }
 .content {
-    float: left;
     text-align: center;
     display: grid;
 }
@@ -75,7 +74,7 @@ a{
     color: white;
     cursor: pointer;
 }
-input[type="email"],input[type="password"],.btn{
+input[type="email"],input[type="password"],input[type="text"],.btn{
 outline: none;
 padding: 1%;
 display: inline-block;
@@ -95,8 +94,12 @@ margin:1% auto
     background-color: #3dcbb6;
 }
 span a{
-    color:#333
+    color:#333 
 }
 .registro{
     display: grid;
+}
+table{
+    margin: 5% auto;
+    width: 60%;
 }
