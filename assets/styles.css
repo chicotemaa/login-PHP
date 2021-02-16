@@ -102,4 +102,26 @@ span a{
 table{
     margin: 5% auto;
     width: 60%;
+    
+}
+.admin{
+    display: inline;
+}
+.logout {
+    float: right;
+    margin-bottom: -4%;
+    margin-top: -2.5%;
+    margin-right: 2%;
+    padding: 1%;
+    border-radius: 5%;
+    background-color:#1a1a1a;
+}
+tr{
+    margin-bottom: 2%;
+}
+td>a{
+    padding: 3%;
+    background-color: yellow;
+    color:#1a1a1a;
+    border-radius: 5px;
 }
