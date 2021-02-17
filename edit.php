@@ -25,7 +25,7 @@
                         
                 ?>
                 <h2>Editar datos de Usuario</h2>
-                <form action="edit.php?id=<?php echo $editar['id'] ;?>" method="POST">
+                <form action="edit.php?id=<?php echo $editar['id'] ;?>" method="POST" >
                   <label for="nombre">Nombre</label>
                   <input type="text" name="nombre" value="<?php echo $editar['nombre'];?>">
                   <label for="nombre">Correo</label>

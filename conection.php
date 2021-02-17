@@ -21,3 +21,11 @@ try {
     }
 
     
+
+
+$tabla="CREATE TABLE users(
+    id INT(11) AUTO_INCREMENT PRIMARY_KEY,
+    nombre VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    password VARCAR(100) NOT NULL
+    )";
