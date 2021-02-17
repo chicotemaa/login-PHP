@@ -67,7 +67,7 @@
             $lista->execute();
             $usuarios = $lista->fetchAll(PDO::FETCH_ASSOC);
             foreach($usuarios as $usuario){?>
-                <tr>
+              <tr>
                 <td>
                 <?php echo $usuario['nombre'] ;?>
                 </td>
@@ -81,11 +81,11 @@
                 <a href='edit.php?id=<?php echo $usuario['id'] ;?>'>Editar</a>
                 <a href='delete.php?id=<?php echo $usuario['id'] ;?>'>Borrar</a>
                 </td>
-                <tr>
+              </tr> 
+                  
             <?php } ?>
         </table>    
         </section>
     </body>
-
 
 </html>

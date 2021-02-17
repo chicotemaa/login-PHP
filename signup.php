@@ -21,10 +21,10 @@
 <form class="registro" action="signup.php" method="post">
         <input type="text" name="nombre" placeholder="Ingrese nombre de usuario">
         <input type="email" name="email" placeholder="Ingrese correo">
-        <input type="password" name="password" placeholder="Ingrese contraseña">
-        <input type="password" name="confirm_password" placeholder="Confirmar contraseña">
+        <input id="pasword" type="password" name="password" placeholder="Ingrese contraseña">
+        <input id="pasword2"type="password" name="confirm_password" placeholder="Confirmar contraseña">
         <button class="btn" type="submit" value="enviar">enviar</button>
     </form>
-
+    
 </body>
 </html>
