@@ -7,8 +7,8 @@
   }
 
   require 'conection.php';
-
- require 'partials/login.php'
+  $message='';
+  require 'partials/login.php'
 
 ?>
 <!DOCTYPE html>
@@ -20,9 +20,10 @@
     <title>Login</title>
 </head>
 <body>
-    <?php require 'partials/header.php'?>
+    <?php require 'partials/header.php'; ?>
     <h1>Login</h1>
     <span>o <a href="signup.php">Registrarte</a></span>
+    <h5><?php echo $message?></h2>
     <form action="login.php" method="post">
         <input type="email" name="email" placeholder="Ingrese correo">
         <input type="password" name="password" placeholder="Ingrese contraseña">

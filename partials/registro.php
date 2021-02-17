@@ -1,5 +1,5 @@
 <?php
-    
+      /**REGISTRO DE USUARIOS */
       if (!empty($_POST['email']) && !empty($_POST['password'])) {
         $sql = "INSERT INTO users (nombre, email, password) VALUES (:nombre, :email, :password)";
         $stmt = $link->prepare($sql);
