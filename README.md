@@ -9,3 +9,4 @@ Para configurar el servidor hay que acceder al archivo conexion.php
 El proyecto es un crud sencillo que permite registrarse, loguearse
 y una vez logueado podes ver una lista de los usuarios en la base de datos, 
 tenes la opcion de borrar modificar y agregar datos.
+# ULTIMA ACTUALIZACION LA BASE DE DATOS Y TABLAS SE CREAN DESDE EL MISMO PROGRAMA
