@@ -21,9 +21,6 @@
 </head>
 <body>
     <?php require 'partials/header.php'?>
-    <?php if(!empty($message)): ?>
-      <p> <?= $message ?></p>
-    <?php endif; ?>
     <h1>Login</h1>
     <span>o <a href="signup.php">Registrarte</a></span>
     <form action="login.php" method="post">

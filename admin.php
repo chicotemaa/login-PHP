@@ -35,7 +35,7 @@
               
                 <br> bienvenido <?=$user['nombre'];?>
                 <br>te logueaste correctamente 
-                <a class="logout" href="logout.php">Salir</a>            
+                <a class="logout" href="partials/logout.php">Salir</a>            
 
             </div>
             
@@ -79,7 +79,7 @@
                 </td>
                 <td>
                 <a href='edit.php?id=<?php echo $usuario['id'] ;?>'>Editar</a>
-                <a href='delete.php?id=<?php echo $usuario['id'] ;?>'>Borrar</a>
+                <a id="borrar" href='delete.php?id=<?php echo $usuario['id'] ;?>'>Borrar</a>
                 </td>
               </tr> 
                   

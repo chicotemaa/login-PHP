@@ -39,7 +39,8 @@
         <section class="content">
             <?php require 'partials/header.php'?>
             
-            <p> Bienvenidos, para ver y modificar la lista de usuarios debe loguearse</p>
+            <p> Bienvenidos, para ver y modificar la lista de usuarios debe loguearse</p><br>
+            <p>en el caso de no tener usuario, por favor regisrarse</p>
         </section>
     </body>
 </html>
