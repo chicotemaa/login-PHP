@@ -104,9 +104,7 @@ table{
     width: 60%;
     
 }
-.admin{
-    display: inline;
-}
+
 .logout {
     float: right;
     margin-bottom: -4%;
@@ -164,4 +162,7 @@ col>form{
 }
 form{
     display: grid!important;
+}
+.admin{
+    display: inline!important;
 }
